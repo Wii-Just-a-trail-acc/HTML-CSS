@@ -4,6 +4,11 @@ body{
     background: linear-gradient(180deg, #1E1E1E 0%, rgba(255, 255, 255, 0) 100%);
     font-family: 'Courier New', Courier, monospace;
 }
+
+p{
+    font-size: medium;
+}
+
 div{
     background-color: white;
     border-radius: 20px;
@@ -11,13 +16,15 @@ div{
     border: 2px solid black;
     padding: 20px;
 }
+
 img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 150px;
 }
-ul {
+
+ul{
     display: block;
     list-style-type: disc;
     margin-top: 1em;
@@ -26,7 +33,8 @@ ul {
     margin-right: 0;
     padding-left: 40px;
 }
-hr {
+
+hr{
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -35,7 +43,8 @@ hr {
     border-style: inset;
     border-width: 1px;
     opacity: 0.5;
-  }
+}
+
 table{
     background-color:white ;
     color: #1E1E1E;
@@ -46,27 +55,36 @@ table{
     border-collapse: collapse;
     font-size: 1.1rem; 
     font-size: 1.1em;
+    font-size: medium;
 }
+
 th{
     background-color:#1E1E1E ;
-    color: white;
     padding: 5px;
+    color: white;
     text-align: center;
-    border: 1px solid #1E1E1E; 
+    border: 1px solid #1E1E1E;
+    font-size: 1.1rem; 
+    font-size: 1.1em; 
+    font-size: medium;
 }
+
 td{
     background-color:white ;
     color: #1E1E1E;
-    padding: 5px;
     text-align: center;
+    padding: 5px;
     border: 1px solid #1E1E1E; 
     font-size: 1.1rem; 
     font-size: 1.1em;
+    font-size: medium;
 }
+
 .center {
     margin-left: auto;
     margin-right: auto;
-}  
+}
+
 .button{
     background-color: white; 
     color: black; 
@@ -74,6 +92,7 @@ td{
     border-radius: 20px;
     padding: 10px;
 } 
+
 .button:hover {
     background-color: #1E1E1E;
     color: white;
